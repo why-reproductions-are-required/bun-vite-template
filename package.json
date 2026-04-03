@@ -15,7 +15,7 @@
     "format": "vp fmt \"**/*.{ts,tsx}\"",
     "format:check": "vp fmt --check \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "validate": "vp check && vp run test && vp build",
+    "validate": "vp check && vp run test && vp run build",
     "prepare": "vp config"
   },
   "dependencies": {

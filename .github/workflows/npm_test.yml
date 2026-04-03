@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: voidzero-dev/setup-vp@v1
+      - uses: voidzero-dev/setup-vp@1f9173063cf4f9723bec93c4f2094b064ff7640f
         with:
           cache: true
       - name: Install dependencies
