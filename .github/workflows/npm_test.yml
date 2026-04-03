@@ -20,7 +20,5 @@ jobs:
       - uses: voidzero-dev/setup-vp@1f9173063cf4f9723bec93c4f2094b064ff7640f
         with:
           cache: true
-      - name: Install dependencies
-        run: vp install --frozen-lockfile
       - name: Validate
         run: vp run validate
